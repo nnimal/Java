@@ -1,0 +1,37 @@
+//no implementation
+// create object for interface
+
+interface Greeting(){
+public void display()
+}
+// main {
+Public static void main (arg string[]){
+// anonymous class creation with interdface 
+Greeting greeting = new Greeting(){
+//override
+@override
+public void display(){
+system.out.println("Display");
+}
+
+};
+
+//call anonymous class 
+greeting.display();
+
+}
+
+  }
+
+lamda expression
+
+@functional interface
+interface Calcu(){
+public int add(int a , int b)
+}
+
+//under main or any where
+Calcu cal =()->{
+
+}
+
